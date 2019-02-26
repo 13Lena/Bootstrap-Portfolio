@@ -1,0 +1,42 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 34px;
+    color: #777777;
+    background-color: silver;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+    border: 1px;
+    background-color: aliceblue;
+    padding: 10px;
+  }
+  .container.Portfolio {
+    text-align: center;
+  }
+
+  h1,
+  h2,{
+    font-weight: 700;
+    color: #4aaaa5;
+    margin-bottom: 20px;
+  }
+
+  h3, {
+    font-weight: 700;
+    background-color: #4aaaa5;
+    color: aliceblue;
+  }
+
+  #lenaImg {
+    float: left;
+    padding-right: 10px;
+  }
